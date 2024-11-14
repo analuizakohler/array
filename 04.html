@@ -16,11 +16,11 @@
     const posicao = carrosSUV.indexOf(suvremover);
     if (posicao >= 0) {
         carrosSUV.splice(posicao, 1)
-        alert(`${carrosSUVorigem}`);
-        alert(`${carrosSUV}`);
+        document.write(`${carrosSUVorigem}`);
+        document.write(`${carrosSUV}`);
     }
     else {
-        alert(`Esse carro não está na lista`);
+        document.write(`Esse carro não está na lista`);
     }
     //SAÍDA
 
