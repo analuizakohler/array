@@ -1,4 +1,4 @@
-<meta charset="UTF-8" />
+
 <script>
     /*
     PROBLEMA: REMOVER SUV
@@ -9,14 +9,14 @@
     */
 
     //ENTRADA
-    let carrosSUVorigen = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    let carrosSUVorigem = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
     let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
     const suvremover = prompt(`Escreva o nome do carro que você deseja retirar da lista (${carrosSUV})`);
     //PROCESSAMENTO
     const posicao = carrosSUV.indexOf(suvremover);
     if (posicao >= 0) {
         carrosSUV.splice(posicao, 1)
-        alert(`${carrosSUVorigen}`);
+        alert(`${carrosSUVorigem}`);
         alert(`${carrosSUV}`);
     }
     else {
